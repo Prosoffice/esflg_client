@@ -1,0 +1,33 @@
+/* src/components/LegalQuery.css */
+
+/* Style the button to match Nav background color */
+button[type="submit"] {
+    background-color: #333; /* Match the Nav background color */
+    color: white;
+    padding: 10px 20px; /* Add padding to the button */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+/* Add padding to the LegalQuery component */
+.container {
+    padding: 5px; /* Add padding to all sides of the component */
+}
+
+/* Style the response message */
+.response {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.responseParagraph{
+    color: green;
+}
